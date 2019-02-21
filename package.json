@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,13 @@
   },
   "homepage": "https://github.com/FernandoGBR/TokenFactory#readme",
   "dependencies": {
-    "truffle": "^5.0.4"
+    "next": "^8.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "truffle": "^5.0.4",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.85.0",
+    "solc": "^0.5.4",
+    "web3": "^1.0.0-beta.46"
   }
 }
