@@ -1,7 +1,7 @@
 pragma solidity >=0.5.0;
 
 contract Owned{
-    address owner;
+    address public owner;
 
     modifier onlyOwner(){
         require (msg.sender == owner, "only owner can call this");
